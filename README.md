@@ -6,6 +6,8 @@ Set a maximum volume for each output device so headphones can never blast your e
 
 > 🆓 A free, open-source **Hear Volume Limiter alternative** for macOS 14+. Native Swift, no accounts, no subscriptions, MIT licensed.
 
+> 🆓 A free, open-source **Hear Volume Limiter alternative** for macOS 14+. Native Swift, no accounts, no subscriptions, MIT licensed.
+
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
 ![Swift 5.9](https://img.shields.io/badge/Swift-5.9-orange)
 ![License MIT](https://img.shields.io/badge/License-MIT-green)
