@@ -1,0 +1,24 @@
+{
+  "seo_title": "Per-device volume limiter for macOS",
+  "seo_description": "VolumeCeiling is a free, open-source menu bar app that caps the maximum volume of each Mac output device, so headphones never blast your ears.",
+  "hero_title_line1": "Set a volume limit.",
+  "hero_title_accent": "Protect your ears.",
+  "hero_sub": "VolumeCeiling lives in your menu bar and lowers the volume the moment it rises past the ceiling you set for each output device, including right when headphones connect.",
+  "features_title": "A ceiling for every output.",
+  "features_sub": "Simple controls that keep each device under its limit, without accounts, analytics or network access.",
+  "features": [
+    {"icon": "sliders", "title": "Per-device ceilings", "desc": "Every output with software volume control gets its own slider from 5 to 100%. Devices without a limit use a default ceiling, 80% out of the box."},
+    {"icon": "bolt", "title": "Live enforcement", "desc": "VolumeCeiling listens to CoreAudio and lowers the volume as soon as it goes above the ceiling. Short debouncing prevents flicker when you hold the volume keys."},
+    {"icon": "speaker", "title": "Clamped on connect", "desc": "When a device connects or becomes the default output, its volume is brought under the ceiling. It returns to the last volume seen, never above the limit."},
+    {"icon": "shield", "title": "Safe preset and settings lock", "desc": "One click sets 60% on headphone-type devices. An optional lock requires a confirmation click, which unlocks editing for 5 minutes."},
+    {"icon": "clock", "title": "Pause for one hour", "desc": "Suspend the limiter from the menu bar window and it resumes automatically, even after a relaunch. A master switch turns it off entirely."},
+    {"icon": "bell", "title": "Optional notifications", "desc": "Get told when the limiter steps in, at most once per device every 30 seconds. Devices that cannot be limited are shown greyed out with a reason."}
+  ],
+  "permissions_step": "No special permissions are required; macOS asks only if you turn on notifications, and Launch at login appears under System Settings > General > Login Items.",
+  "faq": [
+    {"q": "Is VolumeCeiling really free and open source?", "a": "Yes. It is released under the MIT license, with no accounts, no analytics and no network code. If it is useful to you, there is an optional Support button in the app."},
+    {"q": "What permissions does it need?", "a": "None for limiting volume, because it uses CoreAudio to read and write device volume. It does not request Accessibility, Screen Recording or Microphone access. Notifications and Launch at login are optional and only prompt when you enable them."},
+    {"q": "Where is my data stored?", "a": "Your ceilings and settings are stored locally in UserDefaults on your Mac, keyed by each device's unique ID. Nothing is sent anywhere."},
+    {"q": "Why is the app not notarized?", "a": "Notarization needs a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it from source with Xcode."}
+  ]
+}

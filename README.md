@@ -1,5 +1,7 @@
 # VolumeCeiling
 
+**🌐 Website:** [turhe123.github.io/volume-ceiling](https://turhe123.github.io/volume-ceiling/)
+
 Set a maximum volume for each output device so headphones can never blast your ears.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -30,7 +32,17 @@ VolumeCeiling is a free, open-source, 100% native, backend-free alternative to p
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="VolumeCeiling menu bar window with a per-device ceiling slider" width="720"></p>
+
+<p align="center"><em>The menu bar window shows the active output device, its live volume and an 80% ceiling slider, with other known devices listed below.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="VolumeCeiling settings window" width="560"></p>
+
+<p align="center"><em>Settings let you choose the default ceiling, apply a 60% safe preset to headphones, and turn on notifications, clamp on connect, launch at login and the settings lock.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-paused.png" alt="VolumeCeiling menu bar window in the paused state" width="560"></p>
+
+<p align="center"><em>Pause for 1 hour suspends the limiter and shows when it will resume automatically.</em></p>
 
 ## Install
 

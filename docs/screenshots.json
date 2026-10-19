@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar window shows the active output device, its live volume and an 80% ceiling slider, with other known devices listed below.","alt":"VolumeCeiling menu bar window with a per-device ceiling slider"},
+  {"file":"02-settings.png","caption":"Settings let you choose the default ceiling, apply a 60% safe preset to headphones, and turn on notifications, clamp on connect, launch at login and the settings lock.","alt":"VolumeCeiling settings window"},
+  {"file":"03-paused.png","caption":"Pause for 1 hour suspends the limiter and shows when it will resume automatically.","alt":"VolumeCeiling menu bar window in the paused state"}
+]
