@@ -83,6 +83,17 @@ VolumeCeiling asks for very little. Based on the source:
 - **Notifications:** optional. The system prompt appears only the first time you turn on "Show notifications". If you decline, the setting turns itself off.
 - **Login item:** optional. It is registered only if you enable "Launch at login", and macOS may show it in System Settings › General › Login Items.
 
+## Built with AI
+
+VolumeCeiling was written by [Claude Code](https://claude.com/claude-code) inside an automated pipeline, from a plain-English spec. No code, binaries or assets from any commercial app were used; it is a clean-room reimplementation of a feature set, not a copy.
+
+What that means in practice:
+
+- The full source is in this repo under the MIT license. Read it before you run it.
+- No network calls, no analytics, no third-party dependencies. Only Apple frameworks.
+- Ad-hoc signed and not notarized, which is why Gatekeeper warns on first launch.
+- It has had less human review than a hand-written app. Bug reports and pull requests are welcome.
+
 ## Support ❤️
 
 If VolumeCeiling saves your ears, you can support development:
